@@ -86,6 +86,12 @@ namespace Gyakorlas_Tomi_._2022._10._28
             {
                 lista.Add(new Adat(i));
             }
+
+            //Lista elemein végig megyek
+            foreach (var i in lista)
+            {
+                Console.WriteLine(i.adoszam+" "+i.utca+" "+i.hazszam+" "+i.adosav+" "+i.negyzetmeter);
+            }
             Console.ReadKey();
         }
     }
